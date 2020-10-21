@@ -1,0 +1,25 @@
+.user-component__mark {
+  display: flex;
+  align-items: center;
+  flex-direction: center;
+}
+
+.user-component__mark i {
+  margin-left: 5px;
+  margin-top: 7px;
+  color: tomato;
+}
+
+.more-screen .icon-row {
+  margin-top: 35px;
+}
+
+.more-suggestions {
+  margin-top: 50px;
+  border-top: var(--main-border);
+  padding-top: 40px;
+}
+
+.more-suggestions__title {
+  margin-bottom: 30px;
+}
