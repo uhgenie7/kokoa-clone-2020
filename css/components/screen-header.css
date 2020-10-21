@@ -1,16 +1,30 @@
-.screen-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: var(--horizontal-space);
-    margin-top: 30px;
-    margin-bottom: 15px;
+.screen-header__cog {
+  position: relative;
+}
+
+.screen-header__dot {
+  background-color: tomato;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+}
+
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 .screen-header__title {
-    font-size: 32px;
-    font-weight: 600;
+  font-size: 32px;
+  font-weight: 600;
 }
 
 .screen-header__icon span {
-    margin-left: 25px;
+  margin-left: 25px;
 }

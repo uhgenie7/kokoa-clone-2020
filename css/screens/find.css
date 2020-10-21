@@ -1,17 +1,3 @@
-.screen-header__cog {
-  position: relative;
-}
-
-.screen-header__dot {
-  background-color: tomato;
-  width: 10px;
-  height: 10px;
-  border-radius: 5px;
-  position: absolute;
-  top: -5px;
-  right: -10px;
-}
-
 .recommended-friends {
   margin: 25px 0px;
   padding: 25px 0px;
