@@ -41,6 +41,7 @@
   height: 50px;
   border-radius: 50%;
   margin-right: 15px;
+  margin-bottom: 25px;
 }
 
 .message_author {
@@ -65,4 +66,20 @@
 .message_author {
   opacity: 0.8;
   font-size: 13px;
+}
+
+.message-row--own {
+  justify-content: flex-end;
+}
+
+.message-row--own .message__bubble {
+  background-color: var(--yellow);
+  border-radius: 15px;
+  border-top-right-radius: 0px;
+  margin-right: 0px;
+  margin-left: 5px;
+}
+
+.message-row--own .message__info {
+  flex-direction: row-reverse;
 }
